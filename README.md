@@ -138,9 +138,9 @@ The tools you will need to complete this tutorial are:
 To install the above tools, ensure you are still inside your root folder and type the following commands in terminal:
 
  ### Hardhat Ethers:
-Shell
-
-npm install npm install --save-dev @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
+```shell
+npm install --save-dev @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
+```
 ### Web3:
 
 ```shell
