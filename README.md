@@ -175,7 +175,7 @@ PRIVATE_KEY = "{YOUR_PRIVATE_KEY}"
 
 Replace `{YOUR_RPC_URL}` with the respective network rpc url
 
-you can get rpc urls from [chainlist](https://chainlist.org/) 
+## you can get rpc urls from [chainlist](https://chainlist.org/) 
 
 Replace `{YOUR_PRIVATE_KEY}`with your MetaMask private key.
 
@@ -289,10 +289,10 @@ Your completed task should look like this:
 task("account", "returns nonce and balance for specified address on multiple networks")
   .addParam("address")
   .setAction(async address => {
-    const web3Goerli = createAlchemyWeb3(API_URL_GOERLI);
-    const web3Mumbai = createAlchemyWeb3(API_URL_MUMBAI);
-    const web3Arb = createAlchemyWeb3(API_URL_ARBITRUM);
-    const web3Opt = createAlchemyWeb3(API_URL_OPTIMISM);
+    const web3Goerli = Web3(API_URL_GOERLI);
+    const web3Mumbai = Web3(API_URL_MUMBAI);
+    const web3Arb = Web3(API_URL_ARBITRUM);
+    const web3Opt = Web3(API_URL_OPTIMISM);
 
     const networkIDArr = ["Ethereum Goerli:", "Polygon  Mumbai:", "Arbitrum Rinkby:", "Optimism Goerli:"]
     const providerArr = [web3Goerli, web3Mumbai, web3Arb, web3Opt];
