@@ -428,7 +428,7 @@ const main = async () => {
  const [deployer] = await ethers.getSigners();
   try {
     const Token = await ethers.getContractFactory("Token");
-    const token = await Doras.deploy();
+    const token = await Token.deploy();
   
     console.log("Contract address",token.address);
   } catch (error) {
