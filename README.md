@@ -469,8 +469,8 @@ Deployed to: 0xd216001476CC8F8a277F45d9bFE3996c3f38da5a
 
 To check our transactions on blockchain explorer
 
-[goreli](https://goerli.etherscan.io/)
-[mumbai](https://mumbai.polygonscan.com/)
-[arbitrum](https://testnet.arbiscan.io/)
-[optimism](https://optimistic.etherscan.io/)
+[goreli](https://goerli.etherscan.io/),
+[mumbai](https://mumbai.polygonscan.com/),
+[arbitrum](https://testnet.arbiscan.io/),
+[optimism](https://optimistic.etherscan.io/),
 
